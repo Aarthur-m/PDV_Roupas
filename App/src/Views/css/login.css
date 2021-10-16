@@ -1,0 +1,56 @@
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./custom.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.prod {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    /* margin: 50px; */
+    padding: 90px;
+    
+}
+@media screen and (max-width: 768px){
+    .prod{
+        padding: 50px;
+    }
+    
+}
+
+.cadL{
+    text-align: center;
+    font-size: 150px;
+}
+
+.login{
+    background-color: #f2f2f2;
+    padding: 50px 120px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.login h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login button {
+    width: 100%;
+}

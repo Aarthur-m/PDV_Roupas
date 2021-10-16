@@ -1,0 +1,123 @@
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./main.css);
+@import url(./custom.css);
+@import url(./responsive.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e6e6ec;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.prod {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    /* margin: 50px; */
+    padding: 90px;
+    
+}
+@media screen and (max-width: 768px){
+    .prod{
+        padding: 50px;
+    }
+    
+}
+section .modal{
+    width: 300px;
+}
+section .modal-content{
+    width: 300px;
+    /* background-color: var(--primary); */
+}
+section .modal-header{
+    background-color: var(--primary);
+}
+section .list-group-item{
+    
+    /* background-color: var(--primary); */
+    color: var(--secondary);
+}
+section .list-group-item:hover{
+    /* background-color: #dbc9f2; */
+
+    color: white;
+}
+
+section .list-group-item .opBlock:hover{
+    
+    color: none;
+}
+
+#block:hover {
+    background-color: none;
+}
+
+section .list-group-item .opBlock i{
+    
+    /* background-color: var(--primary); */
+    color: var(--quaternary);
+}
+
+/* .modal-body{ */
+    /* background-color: var(--primary); */
+/* } */
+section .modal-footer{
+    background-color: var(--primary);
+}
+.navbar-toggler{
+    align-self: left;
+    border-color: var(--primary);
+    border-radius: 5px;
+}
+.separar{
+    width: 1em;
+}
+
+
+i{
+    width: 50px;
+    float: left;
+    font-size: 1.2em;
+}
+/* .table{ 
+    text-align: center;
+    margin-top:  10em;
+    margin-left: 11em; 
+/* } */
+.botao{
+    margin-left: 10em;
+}
+.fv{
+    background-color: var(--primary);
+    width: 400px;
+    height: 520px;
+    margin-top: 120px;
+    border-radius: 10px;
+
+}
+.venda{
+    margin-top: 25px;
+    width: 350px;
+    margin-left: 20px;
+    
+}
+.vend{
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.cor{
+    color: grey;
+}

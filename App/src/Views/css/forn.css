@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e6e6ec;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+    margin: 50px;
+    padding: 40px;
+    
+}
+@media screen and (max-width: 768px){
+    section{
+        padding: 50px;
+    }
+    
+}
+.modal{
+    width: 300px;
+}
+.modal-content{
+    width: 300px;
+    /* background-color: var(--primary); */
+}
+.modal-header{
+    background-color: var(--primary);
+}
+.list-group-item{
+    
+    /* background-color: var(--primary); */
+    color: var(--secondary);
+}
+.list-group-item:hover{
+    background-color: var(--secondary);
+    color: white;
+}
+/* .modal-body{ */
+    /* background-color: var(--primary); */
+/* } */
+.modal-footer{
+    background-color: var(--primary);
+}
+.navbar-toggler{
+    align-self: left;
+    border-color: var(--primary);
+    border-radius: 5px;
+}
+.separar{
+    width: 1em;
+}
+.separar1{
+    
+}
+.produtos{
+    margin: 20px;
+    
+    
+}
+form button{
+    color: white;
+}
+i{
+    width: 50px;
+    float: left;
+    font-size: 1.2em;
+}
+/* .table{ 
+    text-align: center;
+    margin-top:  10em;
+    margin-left: 11em; 
+/* } */
+.botao{
+    margin-left: 10em;
+}
+.fornecedor{
+    padding-top: 100px;
+}
